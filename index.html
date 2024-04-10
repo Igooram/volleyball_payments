@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela de Pagamentos</title>
+    <link rel="stylesheet" href="estilo.css">
+</head>
+<body>
+    <h1>Tabela de Pagamentos</h1>
+    <div id="payment-list">
+        <!-- Lista de pagamentos carregada dinamicamente -->
+    </div>
+    <div id="payment-options">
+        <h2>Opções de Pagamento</h2>
+        <img src="qr_code.png" alt="QR Code para pagamento">
+        <p>Chave Pix: 1212121212121</p>
+        <p>Valor: R$ 10,30</p>
+    </div>
+    <form id="payment-form">
+        <label for="name">Nome:</label>
+        <input type="text" id="name" name="name" required>
+        <button type="submit">Pagar</button>
+    </form>
+
+    <script src="script.js"></script>
+</body>
+</html>
